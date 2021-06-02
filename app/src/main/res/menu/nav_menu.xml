@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/nav_notification"
+        android:title="Powiadomienia"
+        android:icon="@drawable/ic_notification"
+        />
+
+    <item
+        android:id="@+id/nav_bus"
+        android:title="Autobusy"
+        android:icon="@drawable/ic_bus"
+        />
+
+    <item
+        android:id="@+id/nav_station"
+        android:title="Przystanki"
+        android:icon="@drawable/ic_station"
+        />
+
+    <item
+        android:id="@+id/nav_tickets"
+        android:title="Bilety"
+        android:icon="@drawable/ic_tickets"
+        />
+
+    <item
+        android:title="Użytkownik">
+        <menu>
+
+            <item
+                android:id="@+id/nav_login"
+                android:title="Login"
+                android:icon="@drawable/ic_login"
+                />
+
+            <item
+                android:id="@+id/nav_settings"
+                android:title="Ustawienia"
+                android:icon="@drawable/ic_settings"
+                />
+
+        </menu>
+    </item>
+
+    <item
+        android:title="Komunikacja">
+        <menu>
+
+            <item
+                android:id="@+id/nav_share"
+                android:title="Udostępnij"
+                android:icon="@drawable/ic_share"
+                />
+
+            <item
+                android:id="@+id/nav_info"
+                android:title="O nas"
+                android:icon="@drawable/ic_info"
+                />
+
+        </menu>
+    </item>
+</menu>

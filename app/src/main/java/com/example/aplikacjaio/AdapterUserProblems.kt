@@ -14,7 +14,7 @@ class AdapterUserProblems(private val itemList: List<UserProblemItem>) : Recycle
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ItemViewHolder {
         val itemView = LayoutInflater.from(parent.context).inflate(R.layout.up_item,
-        parent, false)
+            parent, false)
         return ItemViewHolder(itemView)
     }
 

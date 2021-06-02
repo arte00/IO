@@ -7,7 +7,7 @@ import android.widget.ImageView
 import java.util.*
 import kotlin.concurrent.schedule
 
-class MainActivity : AppCompatActivity() {
+class WelcomeScreen : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -19,3 +19,4 @@ class MainActivity : AppCompatActivity() {
         }
     }
 }
+
