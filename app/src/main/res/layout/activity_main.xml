@@ -7,7 +7,7 @@
     tools:context=".MainActivity"
     android:orientation="vertical"
     android:gravity="center"
-    android:background="@drawable/background_orange">
+    android:background="@drawable/background_green">
 
     <TextView
         android:layout_width="match_parent"
@@ -27,7 +27,7 @@
         android:layout_height="354dp"
         android:adjustViewBounds="true"
 
-        android:background="@drawable/logo_gryf"
+        android:background="@drawable/logo"
         android:gravity="center"
         android:scaleType="centerInside"
 

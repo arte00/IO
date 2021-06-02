@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="4dp"
+    android:clickable="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/up_item_icon"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_up"
+            android:layout_marginEnd="8dp"
+            />
+
+        <TextView
+            android:id="@+id/up_item_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Example problem"
+            android:layout_toEndOf="@id/up_item_icon"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+
+
+            />
+
+        <TextView
+            android:id="@+id/up_item_shExplanation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Short explanation of problem. Also where it took place or something like this i guess XD also i want to check how much space will this item take."
+            android:layout_toEndOf="@+id/up_item_icon"
+            android:layout_below="@id/up_item_title"
+
+            />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
